@@ -1,0 +1,56 @@
+/* Type the CSS styles for the data presentation, conclusion, and recommendation divs here */
+ #header { 
+	background-color: light green;
+ 
+ }
+ #navigation  {
+  overflow: hidden;
+  background-color: #234;
+}
+
+#navigation a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+#navigation a:hover {
+  background-color: #F5F5DC;
+  color: black;
+}
+
+#navigation a.active {
+  /*margin-left: 30em;*/
+  background-color: #87ab69;
+  color: white;
+}
+ 
+ 
+ #issue {
+	 background-color: rgba(230, 225, 0, 0.3);
+	 
+ }
+ 
+ #advocacy {
+	background-color: rgba(230, 225, 0, 0.3);
+	 
+ }
+ 
+ #group {
+	 background-color: rgba(230, 225, 0, 0.3);
+	 
+ }
+ 
+ #sidebar {
+	 
+	 
+ }
+ 
+ #footer {
+	 background-color: rgba(230, 225, 0, 0.3);
+	 
+ }

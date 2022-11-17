@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+    <meta charset="utf 8">
+	<title>INTRODUCTION</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+ </head>
+<style>
+        
+	
+		
+		
+		
+		
+		
+		
+		
+		.container2 {
+		      display: flex;
+			  justify-content: center;
+	    }
+	    .card {
+		      background: white;
+			  width: 900px;
+			  height: 150px;
+			  margin: 10px;
+			  border-radius: 15px 15px 15px 15px;
+			  
+		.
+			  
+			  
+		
+		}
+		
+		.container3 {
+		      display: flex;
+			  justify-content: center;
+	    }
+	    .card {
+		      background: white;
+			  width: 900px;
+			  height: 100px;
+			  margin: 10px;
+			  border-radius: 15px 15px 15px 15px;
+			  
+		.
+			  
+			  
+		
+		}
+		
+		.container4 {
+		      display: flex;
+			  justify-content: center;
+	    }
+	    .card {
+		      background: white;
+			  width: 900px;
+			  height: 150px;
+			  margin: 10px;
+			  border-radius: 15px 15px 15px 15px;
+			  
+		.
+			  
+			  
+		
+		}
+		
+		.container5 {
+		      display: flex;
+			  justify-content: center;
+	    }
+	    .card {
+		      background: white;
+			  width: 900px;
+			  height: 150px;
+			  margin: 10px;
+			  border-radius: 15px 15px 15px 15px;
+			  
+		.
+			  
+			  
+		
+		}
+		
+		.container6 {
+		      display: flex;
+			  justify-content: center;
+	    }
+	    .card {
+		      background: white;
+			  width: 50px;
+			  height: 10px;
+			  margin: 10px;
+			  border-radius: 15px 15px 15px 15px;
+			  
+		.
+			  
+			  
+		
+		}
+		
+		.container7 {
+		      display: flex;
+			  justify-content: center;
+	    }
+	    .card {
+		      background: white;
+			  width: 900px;
+			  height: 150px;
+			  margin: 10px;
+			  border-radius: 15px 15px 15px 15px;
+			  
+		.
+			  
+			  
+		
+		}
+		
+		.container8 {
+		      display: flex;
+			  justify-content: center;
+	    }
+	    .card {
+		      background: white;
+			  width: 900px;
+			  height: 140px;
+			  margin: 10px;
+			  border-radius: 15px 15px 15px 15px;
+			  
+		.
+			  
+			  
+		
+		}
+		
+		}
+		
+		.container9 {
+		      display: flex;
+			  justify-content: center;
+	    }
+	    .card {
+		      background: white;
+			  width: 900px;
+			  height: 140px;
+			  margin: 10px;
+			  border-radius: 15px 15px 15px 15px;
+			  
+		.
+			  
+			  
+		
+		}
+
+	   *{
+	     padding: 0;
+		 margin: 0;
+		 text-decoration: none;
+		 list-style: none;
+		 box-sizing: border-box;
+		 }
+		 body{
+		 font-family: 'Varela Round', sans-serif;
+		 }
+		 nav{
+		  background: #e5deca;
+		  height: 80px;
+		  width: 100%;
+		 }
+		 label.logo{
+		  color: black;
+		  font-size: 35px;
+		  line-height: 80px;
+		  padding: 0 100px;
+		  font-weight: bold;
+         }
+         nav ul{
+		  float: right;
+		  margin-right: 20px;
+         }
+		 nav ul li{
+		  display: inline-block;
+		  line-height: 80px;
+		  margin: 0 5px;
+		 }
+		 nav ul li a{
+		  color: black;
+		  font-size: 17px;
+		  padding: 7px 13px;
+		  border-radius: 3px;
+		  text-transform: uppercase
+		 }
+		 a.active,a:hover{
+		  background: #BFAA8C;
+		  transition: .5s;
+		 }
+		 .checkbtn{
+		  font-size: 30px;
+		  color: black;
+		  float: right;
+		  line-height: 80px;
+		  margin-right: 40px;
+		  cursor: pointer;
+		  display: none;
+		 }
+		 #check{
+		  display: none;
+		 }
+		 @media (max-width: 952px){
+		  label.logo{
+		  font-size: 30px;
+		  padding-left: 50px;
+		  }
+		  nav ul li a{
+		  font-size: 16px;
+		  }
+		 }
+		 @media (max-width: 858px){
+		  .checkbtn{
+		  display: block;
+		  }
+		  ul{
+		  position: fixed;
+		  width: 100%;
+		  height: 100vh;
+		  background: #D1C0A8;
+		  top: 80px;
+		  left: -100%;
+		  text-align: center;
+		  transition: all .5s;
+		  }
+		  nav ul li{
+		  display: block;
+		  margin: 50px 0;
+		  line-height: 30px;
+		  }
+		  nav ul li a{
+		  font-size: 20px;
+		  }
+		  a:hover,a.active{
+		  background: none;
+		  color: ##BFAA8C;  
+		  }
+		  #check:checked ~ ul{
+		  left: 0;
+		  }
+		 }
+		 section{
+		  background: url(https://lh3.googleusercontent.com/txMrBO05xjF4UBz8y1dEDnU1xoOC4F7jjPGM--WxG5sxw5z2dOORHslKZrErlT8YibSSeA6TbsdW_8xCQ-5NlB6pgCGQChx0Tb1d9V3MaINi3XljzQR82dOv8SXf0neprxh1ENgFDQ=w2400) no-repeat;
+		  background-size: cover;
+		  height: calc(400vh - -0px);
+		  
+		 img {
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+		  margin-top: 25px;
+         
+		 
+        }
+</style>	
+		 
+		
+		 
+		
+
+
+
+<body>
+
+<div>
+
+</div>
+		 
+</style>
+ <body>
+ <div class="container1">
+ 
+ <nav>
+   <input type="checkbox" id="check">
+   <label for="check" class="checkbtn">
+     <i class="fas fa-bars"></i>
+   </label>
+   <label class="logo">PPHC</label>
+   <ul>
+     <font
+     <li><a href="INdex.html">Home Page</a></li>
+	 <li><a href="SIP.html">SIP</a></li>
+	 <li><a class="active" href="#">Background and Significance of the Study</a></li>
+	 <li><a href="music.html">MAPEH</a></li>
+   </ul>
+   </nav>
+   <section>	  
+<center><h1> Padre Pio Home for Children<h1></center>
+<center><img src="https://lh3.googleusercontent.com/jO_Kqr681S5GKBvtiv8OG53fr513OhJuYEgDKWQ6tdZxKdkFYGCyLaYLsdPai8wdC_u7MA72Ro1sV_tLjTnxAgIrwqX5hMGnUivJh6yhRtNd_im-mgDq6O4o1cTism1dNSycBB9WBA=w2400"  style="width:30%"></center>
+<center><p>PPHC otherwise known as Padre Pio Home for Children
+		<br> is a facility or community that entertains, comforts, and helps children that have no 
+		<br> shelter, education background, or family. They also provide therapy to those who are specific clients<br>
+		You will see more information about their clients in our BACKROUND PAGE.
+		<br> This webpage is all about the questions provided to us, and a short simple introduction
+		<br> to the Institution.</p></center>
+ <br>
+ <center><h1>title<h1></center>       
+           
+
+		   
+		   <div class ="container2">
+		    <div class="card">
+			   <div class="imgBx">
+			   <a href="#">
+        
+               </a>
+			  
+			  <center><h2>question</h2><center>
+		<center><p>info here</p></center>
+			   </div>
+			</div>
+	   </div>
+	   
+	  <div class ="container3"> 
+	   <div class="card">
+	       <div class="imgBx">
+		   <a href="#">
+		   
+		   </a>
+		  <center><h2>question</h2></center>
+		   <center><p>put info here</p></center>
+           </div>
+	   </div>
+	  </div>
+	       <div class ="container4"> 
+		    <div class="card">
+			 <div class="imgBx">
+			 <a href="#">
+			 </a>
+			 <center><h2>question</h2></center>
+			 <center><p>put info here.</p></center>
+		   </div>
+	   </div>
+	  </div> 
+			
+			<div class ="container5"> 
+		    <div class="card">
+			 <div class="imgBx">
+			 <a href="#">
+			 </a> 
+			 <center><h2>question</h2></center>
+			 <center><p>put info here</p></center>
+		   </div>
+	   </div>
+	  </div>
+		
+		    <div class ="container6"> 
+		    <div class="card">
+			 <div class="imgBx">
+			 <a href="#">
+			 </a> 
+			<center><h2>question</h2></center>
+			 <center><p>put info here</p></center>
+		   </div>
+	   </div>
+	  </div>
+<br>
+<br>
+<br>			 
+<br>			 
+<br>
+<br>			 
+<center><h1>GROUP 2A PROJECT PROPOSAL TIMELINE<h1></center>			 
+<center><img src="https://lh3.googleusercontent.com/YQ4j12IkukuAmOHYjq_rSRODNQqMgZX6G5zHQm7yas59htiUvUY2p5JEs6OKs11iKyGRfRJ_fmgUwS-JJDNKOwImR4dIJ9VKJEqsYVEkuwf5jQvNZH8kb6G3YlF13i0k_kDQHhIKbA=w2400" style="width:50%"></center>
+			<div class ="container7">
+			<div class="card">
+			 <div class="imgBx">
+			 <a href="#">
+			 </a>
+			 <center><p>put info here</h2></center>
+			 </div>
+			</div>
+		    </div>
+		   
+ <center><h1>About the Web Designer</h1></center>
+ <center><img src="Put the pic.jpg of your face here" style="width:30%"></center>
+            <div class ="container8">
+			<div class="card">
+			 <div class="imgBx">
+			 <a href="#">
+			 </a>
+ <center><h3> James Principe, info info info info info info </h3></center>
+           </div>
+		  </div>
+		    </div>
+ 
+            <div class ="container9"> 
+		    <div class="card">
+			 <div class="imgBx">
+			 <a href="#">
+			 </a>
